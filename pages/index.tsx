@@ -10,8 +10,9 @@ export default function Home() {
   return (
     <>
       
-      <h2>Hello world</h2>
-      <LoginCard/>
+    <div className='bg-gray-500 w-screen h-screen flex'>      
+      <LoginCard/></div>
+
     </>
   );
 }
