@@ -24,6 +24,11 @@ const LoginCard = () => {
             <div className="flex flex-col  gap-20 bg-gray-100 w-full h-full items-center justify-center">
                     <h3 className="text-3xl text-black">Welcome again</h3>
                     <FormLogin/>
+                    <div className="flex text-center lg:hidden  justify-between rounded-xl  text-gray-200 gap-2  text-sm">
+                    <p className="bg-white border-slate-800 border-2 text-slate-800 rounded-xl p-2 ">Login with G</p>
+                    <p className="bg-white border-slate-800 border-2 text-slate-800 rounded-xl p-2 ">Login with F</p>
+                    <p className="bg-white border-slate-800 border-2 text-slate-800 rounded-xl p-2 ">Login with A</p>
+                </div>
             </div>
         </div>
    
