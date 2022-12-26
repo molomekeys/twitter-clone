@@ -5,7 +5,6 @@ export const FormLogin = () => {
     const passeworldRef=useRef(null);
     const handleLogin=(e:any)=>{
         e.preventDefault();
-        setLoginInput({email:loginRef.current?.value,passeword:passeworldRef.current?.value})
     }
     console.log(loginInput);
 

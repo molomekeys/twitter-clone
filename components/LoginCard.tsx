@@ -4,7 +4,10 @@ import Image from "next/image"
 const LoginCard = () => {
   return (
   
-        <div className="   w-full bg-white justify-around items-center grid grid-cols-1 md:grid-cols-2">
+        <div className="  bg-gradient-to-tr from-gray-50 to-gray-50 
+        
+        
+        w-full  justify-around items-center grid grid-cols-1 md:grid-cols-2">
             <div className="hidden bg-transparent md:flex flex-col gap-10  items-center">
                 <div>
                <Image  className="object-fit-cover"
@@ -21,8 +24,8 @@ const LoginCard = () => {
                </div>
                
            
-            <div className="flex flex-col  gap-20 bg-gray-100 w-full h-full items-center justify-center">
-                    <h3 className="text-3xl text-black">Welcome again</h3>
+            <div className="flex flex-col  gap-20 bg-transparent w-full h-full items-center justify-center">
+                    <h3 className="text-3xl text-black">Welcome back</h3>
                     <FormLogin/>
                     <div className="flex text-center lg:hidden  justify-between rounded-xl  text-gray-200 gap-2  text-sm">
                     <p className="bg-white border-slate-800 border-2 text-slate-800 rounded-xl p-2 ">Login with G</p>
