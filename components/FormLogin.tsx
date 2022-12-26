@@ -5,9 +5,10 @@ export const FormLogin = () => {
     const passeworldRef=useRef(null);
     const handleLogin=(e:any)=>{
         e.preventDefault();
-        console.log(loginRef.current.value);
-        console.log(passeworldRef.current.value);
+        setLoginInput({email:loginRef.current?.value,passeword:passeworldRef.current?.value})
     }
+    console.log(loginInput);
+
   return (
     <>
     
@@ -17,7 +18,7 @@ export const FormLogin = () => {
         
         className="p-2 border-2 border-slate-300"/>
         <label>Passeword :</label>
-        <input ref={passeworldRef}
+        <input ref={passeworldRef} type='password'
         placeholder="password" className="p-2 border-2 border-slate-300"/>
        
        <button onClick={handleLogin}
